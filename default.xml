@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+ <!--DEFINITIONS-->
+ <!--ORIGIN-->
+ <remote name="origin"			fetch=".."					revision="main"/>
+ <!--GITHUB-->
+ <remote name="github"			fetch="https://github.com"/>
+ <remote name="githubmain"		fetch="https://github.com"			revision="main"/>
+ <remote name="githubmaster"		fetch="https://github.com"			revision="master"/>
+ <remote name="githubdev"		fetch="https://github.com"			revision="dev"/>
+ <remote name="githubdevelopment"	fetch="https://github.com"			revision="development"/>
+ <!--GITLAB-->
+ <remote name="gitlab"			fetch="https://gitlab.com"/>
+ <remote name="gitlabmain"		fetch="https://gitlab.com"			revision="main"/>
+ <remote name="gitlabmaster"		fetch="https://gitlab.com"			revision="master"/>
+ <remote name="gitlabdev"		fetch="https://gitlab.com"			revision="dev"/>
+ <remote name="gitlabdevelopment"	fetch="https://gitlab.com"			revision="development"/>
+ <!--GITEA-->
+ <remote name="gitea"			fetch="http://gitea.local"/>
+ <remote name="giteamain"		fetch="http://gitea.local"			revision="main"/>
+ <remote name="giteamaster"		fetch="http://gitea.local"			revision="master"/>
+ <remote name="giteadev"		fetch="http://gitea.local"			revision="dev"/>
+ <remote name="giteadevelopment"	fetch="http://gitea.local"			revision="development"/>
+ <!--GIST-->
+ <remote name="gitgist"			fetch="https://gist.github.com"/>
+ <!--GOOGLE ANDROID-->
+ <remote name="googleandroid"		fetch="https://android.googlesource.com"/>
+ <remote name="googleandroidmaster"	fetch="https://android.googlesource.com"	revision="master"/>
+ <!--J1NH0-->
+ <remote name="j1nh0ssh"		fetch="ssh://git@github.com/j1nh0"		revision="main"/>
+ <remote name="j1nh0https"		fetch="https://github.com/j1nh0"		revision="main"/>
+ <!--DEFAULT BEHAVIOR-->
+ <default remote="j1nh0https"/>
+ <!--PDF-->
+ <project name="pdf_apple"			path="pdf/apple"/>
+ <project name="pdf_asimov"			path="pdf/asimov"/>
+ <project name="pdf_apt"			path="pdf/apt"/>
+ <project name="pdf_chroot"			path="pdf/chroot"/>
+ <project name="pdf_cis"			path="pdf/cis"/>
+ <project name="pdf_cmmc"			path="pdf/cmmc"/>
+ <project name="pdf_dnd"			path="pdf/dnd"/>
+ <project name="pdf_docker"			path="pdf/docker"/>
+ <project name="pdf_esxi"			path="pdf/esxi"/>
+ <project name="pdf_etc"			path="pdf/etc"/>
+ <project name="pdf_firefox"			path="pdf/firefox"/>
+ <project name="pdf_gcc"			path="pdf/gcc"/>
+ <project name="pdf_git"			path="pdf/git"/>
+ <project name="pdf_google"			path="pdf/google"/>
+ <project name="pdf_jakcom"			path="pdf/jakcom"/>
+ <project name="pdf_kali"			path="pdf/kali"/>
+ <project name="pdf_luks"			path="pdf/luks"/>
+ <project name="pdf_mil"			path="pdf/mil"/>
+ <project name="pdf_minecraft"			path="pdf/minecraft"/>
+ <project name="pdf_nist"			path="pdf/nist"/>
+ <project name="pdf_nmap"			path="pdf/nmap"/>
+ <project name="pdf_openssl"			path="pdf/openssl"/>
+ <project name="pdf_pfsense"			path="pdf/pfsense"/>
+ <project name="pdf_proxmox"			path="pdf/proxmox"/>
+ <project name="pdf_qemu"			path="pdf/qemu"/>
+ <project name="pdf_qr"				path="pdf/qr"/>
+ <project name="pdf_rpi"			path="pdf/rpi"/>
+ <project name="pdf_scuba"			path="pdf/scuba"/>
+ <project name="pdf_sql"			path="pdf/sql"/>
+ <project name="pdf_ssh"			path="pdf/ssh"/>
+ <project name="pdf_tcpip"			path="pdf/tcpip"/>
+ <project name="pdf_trig"			path="pdf/trig"/>
+ <project name="pdf_txt"			path="pdf/txt"/>
+ <project name="pdf_ubuntu"			path="pdf/ubuntu"/>
+ <project name="pdf_veracrypt"			path="pdf/veracrypt"/>
+ <project name="pdf_windows"			path="pdf/windows"/>
+ <project name="pdf_xls"			path="pdf/xls"/>
+</manifest>
